@@ -3,14 +3,17 @@
 ```
 minikube start
 ```
-
+- Install OLM
 ```
 kubectl apply -f https://github.com/operator-framework/operator-lifecycle-manager/releases/download/0.10.0/crds.yaml
 kubectl apply -f https://github.com/operator-framework/operator-lifecycle-manager/releases/download/0.10.0/olm.yaml
 ```
+
+- Deploy operator-marketplace. (operator-marketplace operator is needed only for local testing)
 ```
 kubectl apply -f operator-marketplace/deploy/upstream/
 ```
+- Deploy other resources
 ```
 kubectl apply -f install.yaml 
 ```
