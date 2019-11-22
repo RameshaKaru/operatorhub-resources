@@ -59,7 +59,7 @@ apim-operator is deployed
 
 ## How to preview the operator
 
-Go to  https://operatorhub.io/preview and upload operatorhub-resources/apim-operator/1.0.1/apim-operator.v1.0.1.clusterserviceversion.yaml
+Go to  https://operatorhub.io/preview and upload [csv file](apim-operator/1.0.1/apim-operator.v1.0.1.clusterserviceversion.yaml)
 
 ### Operator bundle
 
